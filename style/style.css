@@ -3,9 +3,6 @@
 
 .work-sans {
   font-family: "Work Sans", sans-serif;
-  /* font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal; */
 }
 
 #hero {
@@ -43,8 +40,6 @@
 #hero .title {
     color: white;
     text-align: center;
-    /* width: 790px; */
-    /* height: 115px; */
     font-weight: 700;
     font-size: 50px;
 }
@@ -55,7 +50,6 @@
     opacity: 0.7;
     font-size: 16px;
     font-weight: 500;
-
 }
 
 .btn-container {
@@ -79,7 +73,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .card {
@@ -87,7 +80,6 @@
     flex-direction: column;
     align-items: center;
     margin: 40px;
- 
 }
 
 
@@ -96,8 +88,6 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-
-
 }
 
 #card-box .subtitle {
@@ -114,13 +104,6 @@
     
 }
 
-
-/* .card .image-box {
-  width: 250px;
-}
-.card .image-box img {
-  width: 100%;
-} */
 
 
 #card-box img {
@@ -185,10 +168,7 @@ align-items: center;
 }
 
 /* footer */
-footer {
-/*     
-    width: 1932px;
-    height: 271px; */
+#footer {
     background-image: url("/assets/social-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -199,17 +179,14 @@ footer {
     text-align: center;
 }
 
-footer img {
-    /* width: 100%; */
-}
-footer .icon {
+#footer .icon {
     display: flex;
     gap: 10px;
     justify-content: center;
 
 }
 
-#footer .title {
+.footer-section .title {
     font-size: 36px;
 
 }
